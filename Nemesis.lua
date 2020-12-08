@@ -1,7 +1,7 @@
 getgenv().WhitelistKey = "math.huge"
 hook = hookfunction(game.HttpGet, function(self, url, ...)
    if url == "https://thenemesishub.000webhostapp.com/Uis/NewUi.lua" then
-        url = "https://pastebin.com/raw/qwdPKKDN"
+        url = "https://raw.githubusercontent.com/Introvert1337/Releases/master/venyxforsowd.lua"
     end
     return hook(self, url, ...)
 end)
